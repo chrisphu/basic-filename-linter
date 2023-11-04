@@ -7,7 +7,7 @@ The [`basic-filename-linter.py`](https://github.com/chrisphu/basic-filename-lint
 # How to use
 
 >[!WARNING]
->Running this will immediately begin the renaming process. Ensure you have supplied the correct desired directory path.
+>Running this will immediately begin the renaming process. Ensure you supply the correct desired directory path.
 
 Run `py basic_filename_linter.py {directory path}`.
 
