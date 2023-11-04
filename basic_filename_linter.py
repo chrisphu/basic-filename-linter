@@ -12,7 +12,7 @@ def check_number_of_arguments():
 def check_for_help_flag():
     if sys.argv[1] in ['-h', '--help']:
         print('\nCommand to run: py basic_filename_linter.py {directory path}')
-        print('\nAll file names within the given directory will:\n(1) be converted to all lowercase\n(2) have spaces and hyphens replaced with underscores')
+        print('\nFiles in the given directory will be renamed to:\n1. Be all lowercase\n2. Have spaces and hyphens replaced with underscores')
         return True
     return False
 
