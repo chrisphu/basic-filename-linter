@@ -25,7 +25,7 @@ def rename_files_in_directory(directory_path):
         if not path.is_file():
             continue
         current_file_name = os.path.basename(path)
-        current_file_path = os.path.join(directory_path.absolute(), current_file_name)
+        current_file_path = path.absolute()
         new_file_name = current_file_name.lower().replace(' ', '_').replace('-', '_')
         new_file_path = os.path.join(directory_path.absolute(), new_file_name)
         os.rename(current_file_path, new_file_path)
