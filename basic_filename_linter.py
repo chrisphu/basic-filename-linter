@@ -3,11 +3,10 @@ import sys
 from pathlib import Path
 
 def check_number_of_arguments():
-    if len(sys.argv) != 2:
-        if len(sys.argv) <= 1:
-            raise Exception('Too few arguments.')
-        else:
-            raise Exception('Too many arguments.')
+    if len(sys.argv) < 2:
+        raise Exception('Too few arguments.')
+    elif len(sys.argv) > 2:
+        raise Exception('Too many arguments.')
 
 def check_for_help_flag():
     if sys.argv[1] in ['-h', '--help']:
