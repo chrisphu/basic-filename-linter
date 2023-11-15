@@ -2,7 +2,7 @@
 
 The [`basic_filename_linter.py`](https://github.com/chrisphu/basic-filename-linter/blob/main/basic_filename_linter.py) Python script renames files within a given directory to:
 1. Be all lowercase
-2. Have spaces and hyphens replaced with underscores
+2. Have spaces and underscores replaced with hyphens
 
 # How to use
 
