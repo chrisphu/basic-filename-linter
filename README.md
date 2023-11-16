@@ -1,6 +1,6 @@
 # basic-filename-linter
 
-The [`basic_filename_linter.py`](https://github.com/chrisphu/basic-filename-linter/blob/main/basic_filename_linter.py) Python script renames files within a given directory to:
+The [`basic-filename-linter.py`](./basic-filename-linter.py) Python script renames files within a given directory to:
 1. Be all lowercase
 2. Have spaces and underscores replaced with hyphens
 
@@ -9,7 +9,7 @@ The [`basic_filename_linter.py`](https://github.com/chrisphu/basic-filename-lint
 >[!WARNING]
 >Running this will immediately begin the renaming process. Ensure you supply the correct desired directory path.
 
-Run `py basic_filename_linter.py {directory path}`.
+Run `py basic-filename-linter.py {directory path}`.
 
 # This is very limited – any plans to upgrade?
 
